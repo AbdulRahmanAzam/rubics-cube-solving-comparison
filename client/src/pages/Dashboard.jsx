@@ -63,9 +63,10 @@ function ModelBar({ data, dataKey, format, log = false }) {
   );
 }
 
-// Alternate labels above/below the dots so neighbours with similar latency do not overlap.
-function ScatterLabel({ x, y, value, index }) {
-  const below = index % 2 === 1;
+// Alternate labels above/below the dots so neighbours with similar latency do not overlap,
+// but never below a dot on the x axis, where the label would run into the tick labels.
+function ScatterLabel({ x, y, value, index, rows }) {
+  const below = index % 2 === 1 && rows[index]?.successRate > 0;
   return (
     <text x={x} y={below ? y + 20 : y - 10} textAnchor="middle" fontSize={12} fontWeight={700} fill="#374151">
       {value}
@@ -264,12 +265,10 @@ export default function Dashboard() {
             <ZAxis range={[260, 260]} />
             <Tooltip formatter={(v, n) => (n === 'Latency' ? ms(v) : pct(v))} />
             <Scatter data={scatterRows}>
-              {rows
-                .filter((r) => r.avgLatencyMs)
-                .map((r) => (
-                  <Cell key={r.id} fill={r.color} />
-                ))}
-              <LabelList dataKey="short" content={ScatterLabel} />
+              {scatterRows.map((r) => (
+                <Cell key={r.id} fill={r.color} />
+              ))}
+              <LabelList dataKey="short" content={(p) => <ScatterLabel {...p} rows={scatterRows} />} />
             </Scatter>
           </ScatterChart>
         </ResponsiveContainer>
