@@ -1,0 +1,292 @@
+{
+  "id": "main",
+  "seed": 20261022,
+  "createdAt": "2026-10-22T08:58:29.463Z",
+  "metric": "HTM (18 face turns)",
+  "puzzles": [
+    {
+      "id": "warmup-01",
+      "tier": "warmup",
+      "scrambleLength": 3,
+      "scramble": [
+        "D'",
+        "R",
+        "D'"
+      ],
+      "facelets": "UUFUUFUURBRRBRRULLFFDFFDBRRLBBDDDDDDLLLLLLRRDUBBUBBFFF",
+      "optimal": 3,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "warmup-02",
+      "tier": "warmup",
+      "scrambleLength": 3,
+      "scramble": [
+        "F",
+        "U2",
+        "F"
+      ],
+      "facelets": "LLLUUUDDRULDURRURRFFBFFBFFBUULDDDDDDURRLLRLLRFFFBBBBBB",
+      "optimal": 3,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "warmup-03",
+      "tier": "warmup",
+      "scrambleLength": 4,
+      "scramble": [
+        "R'",
+        "L'",
+        "F",
+        "L'"
+      ],
+      "facelets": "DUBFUBULLFRRURRBRRRDDBFFBUUURRUDFUDFBDFLLLLLLDBLDBFDBF",
+      "optimal": 4,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-01",
+      "tier": "primary",
+      "scrambleLength": 4,
+      "scramble": [
+        "F2",
+        "D'",
+        "F'",
+        "R'"
+      ],
+      "facelets": "UULUUBLLBRRBRRBDDUFFUFFUFFBRRRUDRUDLLLDLLDFFDDBBDBBFLR",
+      "optimal": 4,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-02",
+      "tier": "primary",
+      "scrambleLength": 4,
+      "scramble": [
+        "U'",
+        "D2",
+        "R'",
+        "B'"
+      ],
+      "facelets": "RLBUUBUURFRUFRUFRFLLUFFUBBUDDLDDFLLLDBBDLLBRRRBFRBFDDD",
+      "optimal": 4,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-03",
+      "tier": "primary",
+      "scrambleLength": 4,
+      "scramble": [
+        "L2",
+        "R2",
+        "B",
+        "L"
+      ],
+      "facelets": "FRRBUDFUDRRURRDRRURFBDFBDFBBDUBDUBLLDUDLLLLLLFFLBBUFFU",
+      "optimal": 4,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-04",
+      "tier": "primary",
+      "scrambleLength": 4,
+      "scramble": [
+        "L",
+        "R",
+        "D'",
+        "B"
+      ],
+      "facelets": "RRDBUFBUFRRFRRFUBFUFDUFDRRRBBBDDDLLUFLLULLBFDLUULBBLDD",
+      "optimal": 4,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-05",
+      "tier": "primary",
+      "scrambleLength": 4,
+      "scramble": [
+        "R'",
+        "D'",
+        "B",
+        "F"
+      ],
+      "facelets": "RRBUUBULLURDURDBBDRFFRFFRUUDRRDDDLLFBLFULFUFFLDDLBBLBB",
+      "optimal": 4,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-06",
+      "tier": "primary",
+      "scrambleLength": 5,
+      "scramble": [
+        "R",
+        "B",
+        "F",
+        "D'",
+        "U"
+      ],
+      "facelets": "LURLURLFRUUUURDBBBURBFFFFRDRBLRDLRDLFFFULDDDDFLDBBBULB",
+      "optimal": 5,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-07",
+      "tier": "primary",
+      "scrambleLength": 5,
+      "scramble": [
+        "D",
+        "L'",
+        "U'",
+        "B'",
+        "D'"
+      ],
+      "facelets": "LLBUUUFFLDFURRURBRLLBDFFFFUDDFDDRRBFBBUDLBDLLRUURBRDLB",
+      "optimal": 5,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-08",
+      "tier": "primary",
+      "scrambleLength": 5,
+      "scramble": [
+        "B'",
+        "L",
+        "F'",
+        "B",
+        "U2"
+      ],
+      "facelets": "RRRUUBUUULDUDRRFRFBBBFFFLUUDLLFDDDLLDRRLLUBLBFFFBBBDDR",
+      "optimal": 5,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-09",
+      "tier": "primary",
+      "scrambleLength": 5,
+      "scramble": [
+        "U'",
+        "R",
+        "F",
+        "D",
+        "U"
+      ],
+      "facelets": "LUULUUBFLURRURFDDDURFFFLLLBDDRDDRRBRFFLLLDUBBBBDUBBFRF",
+      "optimal": 5,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "primary-10",
+      "tier": "primary",
+      "scrambleLength": 5,
+      "scramble": [
+        "L",
+        "D'",
+        "B'",
+        "F'",
+        "U'"
+      ],
+      "facelets": "LUBLURUBRFFRDRUDBUFLUFFRUURLLFDDDDRRDDLFLUFFBDRBBBLBBL",
+      "optimal": 5,
+      "optimalIsExact": true,
+      "optimalMethod": "exact search (meet-in-the-middle, HTM)"
+    },
+    {
+      "id": "extension-01",
+      "tier": "extension",
+      "scrambleLength": 15,
+      "scramble": [
+        "U2",
+        "L'",
+        "F2",
+        "R2",
+        "D",
+        "B",
+        "L",
+        "D'",
+        "L2",
+        "U",
+        "L'",
+        "B",
+        "U'",
+        "R",
+        "U2"
+      ],
+      "facelets": "BDBBUUBLFULLURRDFURDRFFRDBRLUFFDRBFLLRUBLURLFUBDDBLFDD",
+      "optimal": 15,
+      "optimalIsExact": false,
+      "optimalMethod": "Kociemba two-phase upper bound"
+    },
+    {
+      "id": "extension-02",
+      "tier": "extension",
+      "scrambleLength": 18,
+      "scramble": [
+        "D'",
+        "U'",
+        "B",
+        "L2",
+        "B",
+        "L",
+        "F'",
+        "L2",
+        "F2",
+        "D'",
+        "B2",
+        "R2",
+        "B",
+        "D",
+        "R'",
+        "U2",
+        "R2",
+        "B2"
+      ],
+      "facelets": "LUFLULRBFUULBRBRURBURRFDFFBLRULDRDFFBDDFLDLBUDFURBLDDB",
+      "optimal": 18,
+      "optimalIsExact": false,
+      "optimalMethod": "Kociemba two-phase upper bound"
+    },
+    {
+      "id": "extension-03",
+      "tier": "extension",
+      "scrambleLength": 20,
+      "scramble": [
+        "R'",
+        "F",
+        "R'",
+        "L'",
+        "B2",
+        "F",
+        "R2",
+        "L'",
+        "F2",
+        "D",
+        "R'",
+        "B'",
+        "R'",
+        "B'",
+        "U'",
+        "L",
+        "D2",
+        "F",
+        "B'",
+        "U'"
+      ],
+      "facelets": "FRUBURDLLUDFURBBLLRDFBFRRFLULUFDUFDBRUBFLLLUBRBDDBRDFD",
+      "optimal": 20,
+      "optimalIsExact": false,
+      "optimalMethod": "Kociemba two-phase upper bound"
+    }
+  ]
+}

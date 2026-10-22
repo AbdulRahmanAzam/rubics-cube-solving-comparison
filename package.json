@@ -1,0 +1,19 @@
+{
+  "name": "rubiks-cube-race",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI Engineering Assignment 02: fast decision models vs a frontier LLM on a Rubik's Cube benchmark",
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n server,client -c blue,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "test": "npm test --prefix server",
+    "suite": "npm run suite --prefix server",
+    "smoke": "npm run smoke --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
